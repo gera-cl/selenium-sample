@@ -5,7 +5,7 @@ import pages.LoginPage;
 
 public class Main {
     public static void main(String[] args) {
-        String baseUrl = "http://localhost:8080/login/";
+        String baseUrl = "http://127.0.0.1:8000/login/";
         String driverPath = System.getProperty("user.dir") + "/src/test/resources/geckodriver";
         System.setProperty("webdriver.gecko.driver", driverPath);
 
